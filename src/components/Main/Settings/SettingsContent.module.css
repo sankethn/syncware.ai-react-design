@@ -1,0 +1,165 @@
+.container {
+  flex: 4 1 0;
+  border-left: 2px solid rgba(104, 96, 96, 0.185);
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .billing {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 1em;
+}
+.container .billing h3 {
+  font-weight: 500;
+}
+
+.container .Button {
+  color: #f5a442;
+  border-color: #f5a442;
+  width: 13%;
+  font-size: 0.7em;
+}
+
+.container .Button:hover {
+  border-color: #f5a442;
+}
+
+.container .billing .expiry {
+  border: 2px solid #928e8e49;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.expiry h5,
+.expiry p {
+  margin: 10px;
+}
+
+.expiry p {
+  font-size: 0.8em;
+  color: #cec8c8b7;
+  padding-top: 0;
+}
+
+.planSetting .change {
+  border-style: dashed;
+  border-color: #f5a442;
+  color: #f5a442;
+  margin-right: 10px;
+  font-size: 0.6em;
+}
+
+.planSetting .cancel {
+  border-style: dashed;
+  border-color: #e70f74;
+  color: #e70f74;
+  font-size: 0.6em;
+}
+
+.planSetting .change:hover {
+  border-color: #f5a442;
+}
+
+.planSetting .cancel:hover {
+  border-color: #e70f74;
+}
+
+.container .billing .paymentOption {
+  border: 2px solid #928e8e49;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 10px 10px;
+  background: none;
+  cursor: pointer;
+}
+
+.container .billing .paymentOption img {
+  height: 50px;
+  /* width: 20px; */
+  flex: 1 1 0;
+}
+
+.container .billing .paymentOption .details {
+  flex: 2 1 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.details .cardNo,
+.details .cardName,
+.details .cardExpiry {
+  margin: 0 0 3px 0;
+  color: white;
+}
+
+.details .cardName {
+  font-weight: 700;
+}
+
+.details .cardExpiry {
+  font-size: 0.9em;
+  color: #e70f74;
+}
+
+.paymentMethods {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.paymentMethods .addCard {
+  border-style: dashed;
+  color: #f5a442;
+  border-color: #f5a442;
+  font-size: 0.6em;
+}
+
+.paymentMethods .addCard:hover {
+  border-color: #f5a442;
+}
+
+.paymentMethods .method {
+  /* display: inline-block; */
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.paymentMethods .method img {
+  height: 30px;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+}
+
+.overview .service {
+  background: none;
+  border: 1px dashed #928e8e49;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #b3adada9;
+  padding: 0 20px;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+.overview .service .name {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.overview .service .price {
+  margin-top: 2px;
+  text-align: left;
+}

@@ -1,0 +1,58 @@
+.container{
+    flex: 5 1 0;
+    padding: 0 30px;
+    background-color: #041C32;
+    color: white;
+}
+
+/* .container main{
+    height: 100%;
+} */
+
+.container .mainNav h2{
+    font-weight: 500;
+}
+
+.container .mainNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .mainNav img{
+    height: 25px;
+}
+
+.container .mainNav button{
+    cursor: pointer;
+    background-color: #041C32;
+    border: none;
+}
+
+.container .account{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+
+.container .account img{
+    margin: 0 10px;
+}
+
+.container .mainNav .logout{
+    background-color: red;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    padding: 7px 0 7px 20px;
+    border-radius: 5px;
+    width: 120px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.container .logout img{
+    height: 20px;
+    margin-right: 5px;
+}

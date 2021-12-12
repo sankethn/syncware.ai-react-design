@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(187, 182, 182, 0.295);
+}
+
+.nav .leftNav{
+    display: flex;
+    flex-direction: row;
+    height: 2.5rem;
+    align-items: center;
+}

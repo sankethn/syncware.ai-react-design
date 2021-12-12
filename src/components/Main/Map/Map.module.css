@@ -1,0 +1,23 @@
+.mapContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.mapContent .sideNav{
+    flex: 1 1 0;
+    border-right: 2px solid rgba(187, 182, 182, 0.295);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+}
+
+.mapContent .sideNav > *{
+    width: 100%;
+}
+
+.mapContent .mapArea{
+    flex: 15 1 0;
+    text-align: center;
+    color: rgba(187, 182, 182, 0.534);
+}

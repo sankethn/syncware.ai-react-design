@@ -1,0 +1,10 @@
+.container{
+    width: 20%;
+    flex: 1 1 0;
+    text-align: center;
+    background-color: #04293A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
